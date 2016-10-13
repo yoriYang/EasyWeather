@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/aa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/citytext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="快速添加"
+        android:textColor="#AAAAAA" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="#AAAAAA" />
+
+    <GridView
+        android:id="@+id/maincityGV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#DCDCDC"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:listSelector="@null"
+        android:numColumns="3"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp" >
+    </GridView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="#AAAAAA" />
+
+</LinearLayout>

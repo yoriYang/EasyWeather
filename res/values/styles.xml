@@ -1,0 +1,100 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- 溢出菜单图标颜色 -->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        
+        <item name="toolbarColor">#3399ff</item>
+        <item name="mainbackground">@drawable/b_blue</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- 溢出菜单图标颜色 -->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        
+        <item name="toolbarColor">#f57d2c</item>
+        <item name="mainbackground">@drawable/b_orange</item>
+    </style>
+    
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- 溢出菜单图标颜色 -->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        
+        <item name="toolbarColor">#787878</item>
+        <item name="mainbackground">@drawable/b_grey</item>
+    </style>
+    
+    <style name="AppTheme4" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- 溢出菜单图标颜色 -->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        
+        <item name="toolbarColor">#CDB5CD</item>
+        <item name="mainbackground">@drawable/b_pink</item>
+    </style>
+    
+    <style name="AppTheme5" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- 溢出菜单图标颜色 -->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        
+        <item name="toolbarColor">#996699</item>
+        <item name="mainbackground">@drawable/b_violet</item>
+    </style>
+    
+    <style name="AppTheme6" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- 标题颜色 -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <!-- 溢出菜单图标颜色 -->
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- 箭头 -->
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        
+        <item name="toolbarColor">#669900</item>
+        <item name="mainbackground">@drawable/b_green</item>
+    </style>
+    
+    <!-- 左边的箭头指示 -->
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+    <style name="blueStyle" parent="AppTheme">
+        <item name="toolbarColor">#2196F3</item>
+    </style>
+
+    <style name="BrandedSwitch.control" parent="Theme.AppCompat.Light">
+
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">#6699CC</item>
+    </style>
+
+
+
+</resources>
